@@ -1,0 +1,103 @@
+body{
+  background-color:#2f3640;
+
+}
+h1{
+  color: white;
+}
+p, h2{
+  color:#dcdde1;
+}
+li{
+  color:#f5f6fa;
+}
+.container {
+  padding-top: 50px;
+}
+#nav{
+  padding:0;
+  margin:0;
+
+}
+.inline{
+display:inline-block;
+min-width: 16%;
+min-height: 100px;
+}
+.pfp {
+  background: url("me.jpg") top center no-repeat;
+  background-size: cover;
+  max-height: 320px;
+}
+.blacktext{
+  color:#303952;
+}
+.name .name-title {
+    padding: 17px 40px 18px 40px;
+    min-height: 120px;
+    max-height: 120px;
+    overflow: hidden;
+}
+.name .name-pdf {
+    background: rgba(0, 0, 0, 0.1);
+    min-height: 120px;
+    max-height: 120px;
+    text-align: center;
+  }
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.dropbtnB {
+    background-color: #45aaf2;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fd9644;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #e87f00}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
